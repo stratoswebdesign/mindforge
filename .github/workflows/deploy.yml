@@ -17,9 +17,9 @@ concurrency:
 env:
   # Saját domain (www.mindforge.hu) bekötésekor:
   #   BASE_PATH: '/'  ·  PUBLIC_PREVIEW: 'false'  ·  CUSTOM_DOMAIN: 'www.mindforge.hu'
-  BASE_PATH: /mindforge
-  PUBLIC_PREVIEW: 'true'
-  CUSTOM_DOMAIN: ''
+  BASE_PATH: /
+  PUBLIC_PREVIEW: 'false'
+  CUSTOM_DOMAIN: www.mindforge.hu
 
 jobs:
   build:
